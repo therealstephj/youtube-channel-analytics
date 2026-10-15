@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Draft LinkedIn posts and personal notes (not for GitHub)
+linkedin/
+INTERVIEW_NOTES.md
