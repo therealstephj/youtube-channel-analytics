@@ -5,3 +5,6 @@ __pycache__/
 # Draft LinkedIn posts and personal notes (not for GitHub)
 linkedin/
 INTERVIEW_NOTES.md
+
+# Raw YouTube Studio export (has video titles/IDs: stays on this computer only)
+2_Data/raw/

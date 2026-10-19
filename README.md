@@ -30,11 +30,21 @@ This project is being built in public, one stage at a time.
 | Stage | What happens | Status |
 |---|---|---|
 | **1. Idea** | Define the question, KPIs, scope and my predictions | ✅ Done ([project brief](1_Idea/project_brief.md)) |
-| **2. Data** | Export real data from YouTube Studio and document it | ⏳ Next |
-| **3. Clean** | Fix data quality issues; every rule documented | ⬜ |
+| **2. Data** | Export real data from YouTube Studio and document it | ✅ Done ([data notes](2_Data/README.md)) |
+| **3. Clean** | Fix data quality issues; every rule documented | ⏳ Next |
 | **4. Analyze** | Dig into the six questions with Python + SQL | ⬜ |
 | **5. Visualize** | Charts that each make one point | ⬜ |
 | **6. Report** | Final KPIs, findings, recommendations | ⬜ |
+
+## At a Glance
+
+| | |
+|---|---|
+| **82** | public videos analyzed, published Aug 2011 – Dec 2019 |
+| **532,000+** | lifetime views on those videos |
+| **18** | metrics per video, from views to subscribers gained |
+| **8** | data quality issues found and documented before analysis |
+| **0** | titles or video IDs published: the channel stays anonymous |
 
 ## Six Questions
 
@@ -56,7 +66,7 @@ This project is being built in public, one stage at a time.
 | ✅ This data can tell us | ❌ It can't tell us |
 |---|---|
 | Which videos got the most views, watch time and subscribers | *Why* a viewer clicked: it shows correlation, not cause |
-| How length, timing and content type relate to performance | Click-through rate for older videos (YouTube only started tracking impressions around 2019) |
+| How length, timing and content type relate to performance | Launch-period click-through rate for old videos (impressions are only counted since YouTube began tracking them) |
 | How performance changed over 8 years | What the algorithm was doing behind the scenes |
 | Whether old videos keep earning views | How my channel compares to other channels |
 
@@ -74,7 +84,7 @@ flowchart LR
 
 ```
 1_Idea/         project brief: question, KPIs, scope, predictions
-2_Data/         raw YouTube Studio export (never edited) + data dictionary
+2_Data/         anonymized dataset, data dictionary, build + profile scripts
 3_Clean/        cleaning notebook + documented cleaning rules
 4_Analyze/      exploratory analysis + SQL queries
 5_Visualize/    final charts
