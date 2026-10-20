@@ -8,7 +8,7 @@ Unless a column name says otherwise, numbers are **lifetime** totals (up to Oct 
 | Column | Type | Meaning | Notes |
 |---|---|---|---|
 | `video` | text | Anonymous ID: `V001` = oldest video | Replaces the YouTube video ID and title for privacy |
-| `publish_date` | date (text) | Day the video went public, e.g. `Aug 8, 2011` | **Blank for 248 videos**, which are most likely private or unlisted (see below) |
+| `publish_date` | date (text) | Day the video went public, e.g. `Aug 8, 2011` | **Blank for 248 videos**, which are mostly unlisted videos |
 | `duration_sec` | number | Video length in seconds | |
 | `avg_view_duration` | text `h:mm:ss` | How long a typical view lasted | Stored as text; convert to seconds in Stage 3 |
 | `avg_pct_viewed` | % | Average share of the video watched per view | **Can be over 100%** when viewers replay or loop a video, common for short animations |

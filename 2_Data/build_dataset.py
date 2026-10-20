@@ -63,6 +63,9 @@ df["_sort_date"] = pd.to_datetime(df["publish_date"], format="%b %d, %Y", errors
 df = df.sort_values(["_sort_date", "duration_sec"], na_position="last").reset_index(drop=True)
 df.insert(0, "video", [f"V{i:03d}" for i in range(1, len(df) + 1)])
 df["title_length"] = df["title"].str.len()  # keep a harmless feature from the title
+
+# Private lookup (V001 -> real title), so categories can be assigned by hand. Stays in raw/, off GitHub.
+df[["video", "video_id", "title", "publish_date", "duration_sec", "views"]].to_csv(RAW / "video_key_PRIVATE.csv", index=False)
 df = df.drop(columns=["video_id", "title", "_sort_date"])
 
 df.to_csv(DATA / "videos_anonymized.csv", index=False)

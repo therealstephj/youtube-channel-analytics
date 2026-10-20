@@ -31,8 +31,8 @@ This project is being built in public, one stage at a time.
 |---|---|---|
 | **1. Idea** | Define the question, KPIs, scope and my predictions | ✅ Done ([project brief](1_Idea/project_brief.md)) |
 | **2. Data** | Export real data from YouTube Studio and document it | ✅ Done ([data notes](2_Data/README.md)) |
-| **3. Clean** | Fix data quality issues; every rule documented | ⏳ Next |
-| **4. Analyze** | Dig into the six questions with Python + SQL | ⬜ |
+| **3. Clean** | Fix data quality issues; every rule documented | ✅ Done ([cleaning log](3_Clean/cleaning_log.md)) |
+| **4. Analyze** | Dig into the six questions with Python + SQL | ⏳ Next |
 | **5. Visualize** | Charts that each make one point | ⬜ |
 | **6. Report** | Final KPIs, findings, recommendations | ⬜ |
 
@@ -40,10 +40,10 @@ This project is being built in public, one stage at a time.
 
 | | |
 |---|---|
-| **82** | public videos analyzed, published Aug 2011 – Dec 2019 |
-| **532,000+** | lifetime views on those videos |
+| **69** | public videos analyzed, published Aug 2011 – Dec 2019 (after cleaning) |
+| **530,000+** | lifetime views on those videos (98% of the channel) |
 | **18** | metrics per video, from views to subscribers gained |
-| **8** | data quality issues found and documented before analysis |
+| **11** | cleaning rules, each logged with how many rows it affected |
 | **0** | titles or video IDs published: the channel stays anonymous |
 
 ## Six Questions
@@ -85,7 +85,7 @@ flowchart LR
 ```
 1_Idea/         project brief: question, KPIs, scope, predictions
 2_Data/         anonymized dataset, data dictionary, build + profile scripts
-3_Clean/        cleaning notebook + documented cleaning rules
+3_Clean/        cleaning script, content categories, cleaning log
 4_Analyze/      exploratory analysis + SQL queries
 5_Visualize/    final charts
 6_Report/       findings, KPIs, recommendations

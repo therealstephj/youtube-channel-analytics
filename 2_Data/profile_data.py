@@ -24,7 +24,7 @@ print(f"Videos in export:                 {len(df)}")
 print(f"  with a publish date:            {has_date.sum()}")
 print(f"    published Aug 2011-Dec 2019:  {in_scope.sum()}")
 print(f"    published after 2019:         {(has_date & ~in_scope).sum()}")
-print(f"  no publish date (likely private): {(~has_date).sum()}")
+print(f"  no publish date (mostly unlisted): {(~has_date).sum()}")
 print()
 print(f"Lifetime views, all videos:       {df['views'].sum():,.0f}")
 print(f"  from in-scope videos:           {df.loc[in_scope, 'views'].sum():,.0f} "

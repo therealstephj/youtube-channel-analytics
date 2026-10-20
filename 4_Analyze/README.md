@@ -1,3 +1,3 @@
 # Stage 4
 
-🚧 Coming soon: Exploratory analysis and SQL queries.
+🚧 Coming soon: exploratory analysis and SQL queries.

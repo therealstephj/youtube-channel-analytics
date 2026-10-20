@@ -31,7 +31,7 @@ Videos in export:                 337
   with a publish date:            89
     published Aug 2011-Dec 2019:  82   ← the analysis scope
     published after 2019:         7
-  no publish date (likely private): 248
+  no publish date (mostly unlisted): 248
 
 Lifetime views, all videos:       542,456
   from in-scope videos:           532,733 (98.2%)
@@ -44,7 +44,7 @@ Those 82 hold **98% of all views**, so they're what the analysis is really about
 
 | # | Issue | Rows | Plan |
 |---|---|---|---|
-| 1 | No publish date: most likely private/unlisted videos | 248 | Keep but flag as out of scope |
+| 1 | No publish date: mostly unlisted videos | 248 | Keep but flag as out of scope |
 | 2 | Published after 2019 (outside the active years) | 7 | Flag as out of scope |
 | 3 | `publish_date` and `avg_view_duration` stored as text | all | Convert to a real date and to seconds |
 | 4 | `avg_pct_viewed` over 100% | 94 | Real (viewers looping short animations), so keep it and explain it |
