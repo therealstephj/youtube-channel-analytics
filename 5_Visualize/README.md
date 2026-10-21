@@ -1,3 +1,3 @@
 # Stage 5
 
-🚧 Coming soon: Final charts.
+🚧 Coming soon: final charts.

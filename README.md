@@ -32,8 +32,8 @@ This project is being built in public, one stage at a time.
 | **1. Idea** | Define the question, KPIs, scope and my predictions | ✅ Done ([project brief](1_Idea/project_brief.md)) |
 | **2. Data** | Export real data from YouTube Studio and document it | ✅ Done ([data notes](2_Data/README.md)) |
 | **3. Clean** | Fix data quality issues; every rule documented | ✅ Done ([cleaning log](3_Clean/cleaning_log.md)) |
-| **4. Analyze** | Dig into the six questions with Python + SQL | ⏳ Next |
-| **5. Visualize** | Charts that each make one point | ⬜ |
+| **4. Analyze** | Dig into the six questions with Python + SQL | ✅ Done ([analysis](4_Analyze/README.md)) |
+| **5. Visualize** | Charts that each make one point | ⏳ Next |
 | **6. Report** | Final KPIs, findings, recommendations | ⬜ |
 
 ## At a Glance
@@ -59,7 +59,13 @@ This project is being built in public, one stage at a time.
 
 ## Key Findings
 
-> 🚧 **In progress.** Findings will be added here once the analysis stage is done.
+> 🚧 **Preview.** Full write-up with polished charts coming in Stages 5–6. Details: [Stage 4 analysis](4_Analyze/README.md).
+
+1. **Music animations carried the channel.** They were 29% of the videos but earned **61% of views** and 69% of subscribers.
+2. **Shorter kept people watching.** Under 30s, viewers watched **109%** (replays). Over 5 min, just **23%**. The sweet spot was 30s–2m.
+3. **A few hits did most of the work.** The top **7 videos** brought in **54% of views** and **64% of subscribers**.
+4. **My peak was 2012–2013, not later.** Those years produced **~71% of all views**. My prediction that I kept improving was wrong.
+5. **Posting day didn't matter**, and **61 of 66 videos still get views** years after I stopped posting.
 
 ## Honest Scope
 
@@ -86,7 +92,7 @@ flowchart LR
 1_Idea/         project brief: question, KPIs, scope, predictions
 2_Data/         anonymized dataset, data dictionary, build + profile scripts
 3_Clean/        cleaning script, content categories, cleaning log
-4_Analyze/      exploratory analysis + SQL queries
+4_Analyze/      analysis notebook, SQL queries, prediction scorecard
 5_Visualize/    final charts
 6_Report/       findings, KPIs, recommendations
 ```
