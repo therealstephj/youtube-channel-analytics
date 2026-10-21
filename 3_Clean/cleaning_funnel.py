@@ -18,6 +18,7 @@ for label, reasons in [
     ("Remove posted after 2019", ["published after 2019"]),
     ("Remove bulk archive upload", ["bulk archive upload"]),
     ("Remove duplicate re-uploads", ["duplicate re-upload"]),
+    ("Remove outliers (my review)", ["outlier (creator's call)"]),
 ]:
     remaining -= df["exclude_reason"].isin(reasons).sum()
     steps.append((label, remaining))

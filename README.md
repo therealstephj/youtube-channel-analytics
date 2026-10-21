@@ -40,10 +40,10 @@ This project is being built in public, one stage at a time.
 
 | | |
 |---|---|
-| **69** | public videos analyzed, published Aug 2011 – Dec 2019 (after cleaning) |
-| **530,000+** | lifetime views on those videos (98% of the channel) |
+| **66** | public videos analyzed, published Aug 2011 – Dec 2019 (after cleaning) |
+| **528,000+** | lifetime views on those videos (97% of the channel) |
 | **18** | metrics per video, from views to subscribers gained |
-| **11** | cleaning rules, each logged with how many rows it affected |
+| **12** | cleaning rules, each logged with how many rows it affected |
 | **0** | titles or video IDs published: the channel stays anonymous |
 
 ## Six Questions

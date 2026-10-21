@@ -41,10 +41,11 @@ df = df.drop(columns=["avg_view_duration"])
 # ---------------------------------------------------------------- 2. Add content categories
 cats = pd.read_csv(CLEAN / "content_categories.csv")
 df = df.merge(cats, on="video", how="left")
-df[["is_reupload", "is_archive_dump"]] = df[["is_reupload", "is_archive_dump"]].fillna(0).astype(int)
+flags = ["is_reupload", "is_archive_dump", "creator_removed"]
+df[flags] = df[flags].fillna(0).astype(int)
 rule("Add a content `category` to every public video",
-     "The export has no content type, so categories were assigned from the original titles (privately)",
-     df["category"].notna().sum())
+     "The export has no content type. Categories were drafted from the original titles (privately), "
+     "then reviewed and corrected by me as the creator", df["category"].notna().sum())
 
 # ---------------------------------------------------------------- 3. Decide what's in the analysis (flag, don't delete)
 df["exclude_reason"] = ""
@@ -62,7 +63,10 @@ exclude(df["publish_date"].isna(), "unlisted (no publish date)",
 exclude(df["publish_date"] >= "2020-01-01", "published after 2019",
         "Outside the Aug 2011 – Dec 2019 period this project studies")
 exclude(df["is_reupload"] == 1, "duplicate re-upload",
-        "Same video uploaded twice on the same day; keeping both would double-count it. The copy with more views is kept")
+        "Same video uploaded twice on the same day (a failed/test upload); keeping both would double-count it. "
+        "The copy with more views is kept")
+exclude(df["creator_removed"] == 1, "outlier (creator's call)",
+        "Not representative content: an announcement post and two throwaway uploads, removed after my review")
 exclude(df["is_archive_dump"] == 1, "bulk archive upload",
         "11 old clips uploaded on a single day in 2018: an archive dump, not regular releases")
 df["in_analysis"] = (df["exclude_reason"] == "").astype(int)
@@ -116,7 +120,7 @@ cols = ["video", "in_analysis", "exclude_reason", "category", "publish_date", "p
         "is_looped", "subs_gained", "subs_net", "likes", "comments", "shares", "subs_gained_per_1k_views",
         "likes_per_1k_views", "comments_per_1k_views", "shares_per_1k_views", "impressions", "ctr_pct",
         "views_2011_2019", "views_after_2019", "long_tail_pct", "watch_hours_2011_2019", "subs_gained_2011_2019",
-        "title_length", "is_reupload", "is_archive_dump"]
+        "title_length", "is_reupload", "is_archive_dump", "creator_removed"]
 df[cols].to_csv(CLEAN / "videos_clean.csv", index=False)
 
 summary = df.groupby(df["exclude_reason"].replace("", "✅ in analysis"))["views"].agg(["size", "sum"])

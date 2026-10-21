@@ -1,90 +1,90 @@
-video,category,is_reupload,is_archive_dump
-V001,Comedy shorts & skits,0,0
-V002,Music animation,0,0
-V003,Tests & throwaway clips,0,0
-V004,Music animation,0,0
-V005,Comedy shorts & skits,0,0
-V006,Comedy shorts & skits,0,0
-V007,Music animation,0,0
-V008,Comedy shorts & skits,0,0
-V009,Music animation,0,0
-V010,Music animation,0,0
-V011,Story animation,0,0
-V012,Tests & throwaway clips,0,0
-V013,Story animation,0,0
-V014,Story animation,0,0
-V015,Story animation,0,0
-V016,Music animation,0,0
-V017,Music animation,1,0
-V018,Music animation,0,0
-V019,Comedy shorts & skits,0,0
-V020,Comedy shorts & skits,0,0
-V021,Comedy shorts & skits,0,0
-V022,Comedy shorts & skits,0,0
-V023,Tests & throwaway clips,0,0
-V024,Gameplay & let's play,0,0
-V025,Gameplay & let's play,0,0
-V026,Comedy shorts & skits,0,0
-V027,Gameplay & let's play,0,0
-V028,Tests & throwaway clips,0,0
-V029,Gameplay & let's play,0,0
-V030,Prank calls,0,0
-V031,Comedy shorts & skits,0,0
-V032,Music animation,0,0
-V033,Comedy shorts & skits,0,0
-V034,Comedy shorts & skits,0,0
-V035,Music animation,0,0
-V036,Tests & throwaway clips,0,0
-V037,Tests & throwaway clips,0,0
-V038,Comedy shorts & skits,0,0
-V039,Comedy shorts & skits,0,0
-V040,Music animation,0,0
-V041,Gameplay & let's play,0,0
-V042,Gameplay & let's play,0,0
-V043,Music animation,0,0
-V044,Gameplay & let's play,0,0
-V045,Comedy shorts & skits,0,0
-V046,Comedy shorts & skits,0,0
-V047,Tests & throwaway clips,0,0
-V048,Gameplay & let's play,0,0
-V049,Comedy shorts & skits,0,0
-V050,Prank calls,0,0
-V051,Music animation,0,0
-V052,Tests & throwaway clips,0,0
-V053,Tests & throwaway clips,0,0
-V054,Comedy shorts & skits,0,0
-V055,Comedy shorts & skits,0,0
-V056,Comedy shorts & skits,0,0
-V057,Gameplay & let's play,0,0
-V058,Gameplay & let's play,0,0
-V059,Comedy shorts & skits,0,0
-V060,Gameplay & let's play,0,0
-V061,Comedy shorts & skits,0,0
-V062,Gameplay & let's play,0,0
-V063,Gameplay & let's play,1,0
-V064,Gameplay & let's play,0,0
-V065,Gameplay & let's play,0,0
-V066,Music animation,0,0
-V067,Comedy shorts & skits,0,0
-V068,Story animation,0,0
-V069,Comedy shorts & skits,0,0
-V070,Comedy shorts & skits,0,1
-V071,Comedy shorts & skits,0,1
-V072,Tests & throwaway clips,0,1
-V073,Comedy shorts & skits,0,1
-V074,Comedy shorts & skits,0,1
-V075,Comedy shorts & skits,0,1
-V076,Comedy shorts & skits,0,1
-V077,Comedy shorts & skits,0,1
-V078,Comedy shorts & skits,0,1
-V079,Comedy shorts & skits,0,1
-V080,Gameplay & let's play,0,1
-V081,Comedy shorts & skits,0,0
-V082,Story animation,0,0
-V083,Comedy shorts & skits,0,0
-V084,Comedy shorts & skits,0,0
-V085,Comedy shorts & skits,0,0
-V086,Music animation,0,0
-V087,Comedy shorts & skits,0,0
-V088,Comedy shorts & skits,0,0
-V089,Music animation,0,0
+video,category,is_reupload,is_archive_dump,creator_removed
+V001,Comedy animation,0,0,0
+V002,Music animation,0,0,0
+V003,Music animation,0,0,0
+V004,Music animation,0,0,0
+V005,Comedy animation,0,0,0
+V006,Comedy animation,0,0,0
+V007,Music animation,0,0,0
+V008,Comedy animation,0,0,0
+V009,Music animation,0,0,0
+V010,Music animation,0,0,0
+V011,Gameplay & let's play,0,0,0
+V012,Music animation,0,0,0
+V013,Gameplay & let's play,0,0,0
+V014,Gameplay & let's play,0,0,0
+V015,Gameplay & let's play,0,0,0
+V016,Music animation,0,0,0
+V017,Music animation,1,0,0
+V018,Music animation,0,0,0
+V019,Comedy animation,0,0,0
+V020,Comedy animation,0,0,0
+V021,Comedy animation,0,0,0
+V022,Comedy animation,0,0,0
+V023,Comedy shorts & skits,0,0,0
+V024,Gameplay & let's play,0,0,0
+V025,Gameplay & let's play,0,0,0
+V026,Music animation,0,0,0
+V027,Gameplay & let's play,0,0,0
+V028,Music animation,0,0,0
+V029,Gameplay & let's play,0,0,0
+V030,Comedy shorts & skits,0,0,0
+V031,Comedy animation,0,0,0
+V032,Music animation,0,0,0
+V033,,0,0,1
+V034,,0,0,1
+V035,Music animation,0,0,0
+V036,Comedy animation,0,0,0
+V037,Music animation,0,0,0
+V038,Comedy animation,0,0,0
+V039,Comedy animation,0,0,0
+V040,Music animation,0,0,0
+V041,Gameplay & let's play,0,0,0
+V042,Gameplay & let's play,0,0,0
+V043,Music animation,0,0,0
+V044,Gameplay & let's play,0,0,0
+V045,Comedy animation,0,0,0
+V046,Comedy animation,0,0,0
+V047,Comedy animation,0,0,0
+V048,Gameplay & let's play,0,0,0
+V049,Comedy animation,0,0,0
+V050,Comedy shorts & skits,0,0,0
+V051,Music animation,0,0,0
+V052,Music animation,0,0,0
+V053,Comedy animation,0,0,0
+V054,Comedy animation,0,0,0
+V055,Comedy animation,0,0,0
+V056,Comedy animation,0,0,0
+V057,Gameplay & let's play,0,0,0
+V058,Gameplay & let's play,0,0,0
+V059,Gameplay & let's play,0,0,0
+V060,Gameplay & let's play,0,0,0
+V061,Comedy animation,0,0,0
+V062,Gameplay & let's play,0,0,0
+V063,Gameplay & let's play,1,0,0
+V064,Gameplay & let's play,0,0,0
+V065,Comedy animation,0,0,0
+V066,Music animation,0,0,0
+V067,Comedy animation,0,0,0
+V068,,0,0,1
+V069,Comedy shorts & skits,0,0,0
+V070,Comedy shorts & skits,0,1,0
+V071,Comedy shorts & skits,0,1,0
+V072,Gameplay & let's play,0,1,0
+V073,Comedy shorts & skits,0,1,0
+V074,Comedy shorts & skits,0,1,0
+V075,Comedy shorts & skits,0,1,0
+V076,Comedy shorts & skits,0,1,0
+V077,Comedy shorts & skits,0,1,0
+V078,Comedy shorts & skits,0,1,0
+V079,Comedy shorts & skits,0,1,0
+V080,Gameplay & let's play,0,1,0
+V081,Comedy shorts & skits,0,0,0
+V082,Comedy animation,0,0,0
+V083,Comedy shorts & skits,0,0,0
+V084,Comedy shorts & skits,0,0,0
+V085,Comedy shorts & skits,0,0,0
+V086,Music animation,0,0,0
+V087,Comedy animation,0,0,0
+V088,Comedy shorts & skits,0,0,0
+V089,Music animation,0,0,0
