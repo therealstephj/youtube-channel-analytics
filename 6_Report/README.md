@@ -1,3 +1,3 @@
 # Stage 6
 
-🚧 Coming soon: Findings, KPIs and recommendations.
+🚧 Coming soon: final KPIs, findings and recommendations.
