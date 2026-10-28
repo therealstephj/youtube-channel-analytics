@@ -4,12 +4,12 @@
 
 ### An 8-year YouTube channel analysis (2011–2019)
 
-**I ran a YouTube channel for 8 years. Now I'm analyzing its real data to find out what actually drove views, watch time and subscribers, and what I'd do differently.**
+**I ran a sprite & game animation YouTube channel for 8 years. I analyzed its real data to find out what actually drove views, watch time and subscribers, and what I'd do differently.**
 
 ![Python](https://img.shields.io/badge/Python-pandas-3776AB?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-SQLite-4479A1)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![Status](https://img.shields.io/badge/status-in%20progress-orange)
+![Status](https://img.shields.io/badge/status-complete-2ea44f)
 
 </div>
 
@@ -23,9 +23,18 @@ Creators get a lot of advice ("post consistently", "keep it short", "post on wee
 tests that advice against **real data from my own channel**, exported from YouTube Studio, covering every
 video I published from **August 2011 to December 2019**.
 
+## The Answer
+
+**Short music animations.** They were less than a third of what I made but earned most of the views and subscribers.
+Length mattered enormously, the posting day didn't matter at all, and a handful of hits did most of the work.
+
+![Headline KPIs](6_Report/kpi_summary.png)
+
+👉 **[Read the final report](6_Report/README.md)**: findings, recommendations, limitations and next steps.
+
 ## Build Progress
 
-This project is being built in public, one stage at a time.
+This project was built in public, one stage at a time.
 
 | Stage | What happens | Status |
 |---|---|---|
@@ -34,7 +43,7 @@ This project is being built in public, one stage at a time.
 | **3. Clean** | Fix data quality issues; every rule documented | ✅ Done ([cleaning log](3_Clean/cleaning_log.md)) |
 | **4. Analyze** | Dig into the six questions with Python + SQL | ✅ Done ([analysis](4_Analyze/README.md)) |
 | **5. Visualize** | Charts that each make one point | ✅ Done ([charts](5_Visualize/README.md)) |
-| **6. Report** | Final KPIs, findings, recommendations | ⏳ Next |
+| **6. Report** | Final KPIs, findings, recommendations | ✅ Done ([final report](6_Report/README.md)) |
 
 ## At a Glance
 
@@ -76,6 +85,9 @@ Under 30 seconds, viewers watched **109%** (replays). Over 5 minutes, just **23%
 - **The posting day didn't matter.** No statistically reliable difference between days. [Chart](5_Visualize/charts/05_posting_day_didnt_matter.png)
 - **61 of 66 videos still get views** years after I stopped posting. [Chart](5_Visualize/charts/06_still_watched_years_later.png)
 
+### 5. My predictions vs the data
+![Prediction scorecard](6_Report/scorecard.png)
+
 ## Honest Scope
 
 | ✅ This data can tell us | ❌ It can't tell us |
@@ -103,7 +115,7 @@ flowchart LR
 3_Clean/        cleaning script, content categories, cleaning log
 4_Analyze/      analysis notebook, SQL queries, prediction scorecard
 5_Visualize/    chart script + six final charts
-6_Report/       findings, KPIs, recommendations
+6_Report/       final report, KPI summary, prediction scorecard
 ```
 
 ---

@@ -46,7 +46,6 @@ Writing these down first keeps the analysis honest. At the end I'll check which 
 4. A small number of videos (maybe the top 10%) brought in **most of the views and subscribers**.
 5. Some old videos are **still getting views** years after I stopped posting.
 
-*(These are draft predictions. Stephanie: edit them to your own gut feelings before Stage 2!)*
 
 ## Tools
 Python (pandas, matplotlib) · SQL (SQLite) · Jupyter · Git/GitHub
